@@ -29,3 +29,11 @@ html {
     border-radius: 50%;
     border: 4px solid #0d6efd;
 }
+
+.imagen-proyecto {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    padding-bottom: 15px;
+    
+}
