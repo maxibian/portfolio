@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#inicio {
+    background: linear-gradient(
+        135deg,
+        #111827,
+        #1e293b
+    ) !important;
+}
+
+.card {
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
