@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 html {
@@ -52,3 +52,36 @@ html {
     padding: 0.6rem 1rem;
     font-weight: 600;
 }
+
+.navbar-portfolio {
+    background-color: #111827;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #334155;
+}
+
+.navbar-portfolio .navbar-nav {
+    gap: 0.5rem;
+}
+
+.navbar-portfolio .nav-link {
+    color: #cbd5e1;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 0.8rem;
+    transition: color 0.2s ease, background-color 0.2s ease;
+    border-radius: 6px;
+}
+
+.navbar-portfolio .nav-link:hover {
+    color: #ffffff;
+    background-color: #1e293b;
+}
+
+.navbar-portfolio .nav-link.active {
+    color: #0d6efd;
+}
+
+.navbar-portfolio .navbar-toggler {
+    border-color: #475569;
+}
+
